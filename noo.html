@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .project-card{
+            width: 30%;
+            height: 400px;
+            position: relative;
+            margin: 20px 0px;
+        }
+        .project-card-bg{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            transition: all 1.5s ease-in-out;
+        }
+        .project-card-bg img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .project-card-text{
+               text-align: center;
+               position: absolute;
+               width: 100%;
+               bottom: 20px;
+               color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="project-content">
+        <div class="project-card">
+              <div class="project-card-bg">
+                  <img src="img/car2.jpg" alt="">
+              </div>
+              <div class="project-card-text">
+                  <h1>Chevrolet Malibu</h1>
+                  <h2>The Princess</h2>
+                  <button><a href="#" class="project-btn">Buy</a></button>
+              </div>
+        </div>
+    </div>
+</body>
+</html>
